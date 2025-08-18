@@ -3864,7 +3864,6 @@ img {
     display: flex;
     position: relative;
     overflow: hidden;
-    background-color: #1f1f3f
 }
 
 .circle_height {
@@ -6975,26 +6974,7 @@ option:focus {
     align-items: center;
 }
 
-.wrapper_hero {
-    position: relative; 
-}
 
-.wrapper_hero::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(20, 184, 166, 0.3); /* #14b8a6 with 70% opacity */
-    z-index: 1;
-    -webkit-backdrop-filter: blur(5px);
-    backdrop-filter: blur(5px);
-    
-    /* This creates a transparent circle in the middle with blurred edges */
-    -webkit-mask-image: radial-gradient(circle at center, transparent 40%, black 100%);
-    mask-image: radial-gradient(circle at center, transparent 40%, black 100%);
-}
 
 /* Ensure hero content is above the overlay */
 .wrapper_hero > * {
