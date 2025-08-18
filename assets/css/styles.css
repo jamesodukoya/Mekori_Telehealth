@@ -6987,3 +6987,18 @@ option:focus {
         object-position: left;
     }
 } */
+
+.trust_logo{
+    /* margin-right: 20px; */
+    height: 30vw;
+    max-height: 200px;
+}
+
+.section.is-hero{
+    padding-top: 20px !important;
+}
+
+/* .m_txt{
+    align-items: center;
+    justify-content: center;
+} */
