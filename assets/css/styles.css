@@ -6982,8 +6982,8 @@ option:focus {
     z-index: 2;
 }
 
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
     .embed_video video {
         object-position: left;
     }
-}
+} */
