@@ -7004,6 +7004,6 @@ option:focus {
 
 @media screen and (max-width: 767px) {
     .embed_video video {
-        object-position: right;
+        object-position: left;
     }
 }
