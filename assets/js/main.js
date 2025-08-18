@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Function to open the modal
     function openModal() {
         if (modal && modalWindow) {
-            body.classList.add('no-scroll');
+            // body.classList.add('no-scroll');
             modal.style.display = 'block';
             // A tiny delay ensures the display property is set before the transition starts
             setTimeout(() => {
@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // Wait for the transition to finish before hiding and allowing scroll again
             setTimeout(() => {
                 modal.style.display = 'none';
-                body.classList.remove('no-scroll');
+                // body.classList.remove('no-scroll');
             }, 500); // This should match your CSS transition time
         }
     }
