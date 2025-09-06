@@ -21114,4 +21114,25 @@ body.rtl .elementor-widget-n-tabs {
 
     .elementor-4034 .elementor-element.elementor-element-a55a322 {
         --padding-top: 40px;
-        --padding
+        /* --padding */
+    }
+}
+
+/* Reduce hero button width */
+@media (min-width: 768px) {
+  .hero_button {
+    width: 70% !important;
+  }
+}
+
+.hero_button_bg{
+    background-color: var(--e-global-color-bf9a3b3) !important;
+}
+
+.hero_button_text{
+    color: var(--e-global-color-0fc4caa) !important;
+}
+
+/* .badges_heading {
+    width: 80% !important;
+} */
